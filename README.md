@@ -68,23 +68,25 @@ python player_tracker.py
 
 ## 📦 Dependencies
 ```txt
-ultralytics
+ultralytics>=8.1.0
 opencv-python
-torch
+torch>=2.0.0
 torchvision
 matplotlib
-git+https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet.git
+tqdm
+boxmot
 ```
 
 ---
+## 🏋️‍♂️ReID Model Training
+We trained our custom ReID model using **train_reid/train_reid_model.ipynb** in Google Colab. The output .pt file was used with StrongSORT for appearance-based tracking.
 
+---
 ## 📄 Report
 See `player_reid_report.pdf` for:
 - Training details
 - Techniques and experiments
 - Challenges and improvements
-
----
 ---
 
 ### 👨‍💻 Developed By
