@@ -1,0 +1,8 @@
+ultralytics>=8.0.204
+opencv-python
+torch>=2.0.0
+torchvision
+matplotlib
+numpy
+tqdm
+boxmot

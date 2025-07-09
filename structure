@@ -1,0 +1,21 @@
+player-reid-single-feed/
+├── option2_single_feed/
+│   ├── best2.pt                  # YOLOv8 model for player detection
+│   ├── player_tracker.py         # Main script for player tracking
+│   ├── 15sec_input_720p.mp4      # Input video for evaluation
+│   └── output/
+│       └── annotated_output.mp4  # Output video with annotated tracking results
+│
+├── train_reid/
+│    └──train_reid_model.ipynb      # Colab or Jupyter notebook used for training
+│    
+├── strongsort/
+│   ├── strongsort.py             # StrongSORT tracker logic using boxmot
+│   └── osnet_x0_25.pt            # Trained ReID model (appearance embedding)
+│
+├── config/
+│   └── strongsort.yaml           # Tracker configuration file
+│
+├── Player_Reid_Report.pdf        # Final report explaining approach and findings
+├── requirements.txt              # Python dependencies for environment setup
+└── README.md                     # Setup instructions and project overview

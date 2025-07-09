@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch model files
+*.pt
+*.pth
+
+# Output folders
+option2_single_feed/output/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Python build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm settings
+.idea/
+
+# Logs and debugging
+*.log
+*.tmp
+*.bak
+
+# Colab-specific
+*.ipynb
